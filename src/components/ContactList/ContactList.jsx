@@ -10,9 +10,8 @@ export const ContactList = ({ contacts, onDelete, filter }) => {
     return (
         <ul className={css.contactList}>
             {contacts.map(contact => (
-                <li>
-                    <Contact key={contact.id}
-                    className={css.contactListItem}
+                <li key={contact.id} className={css.contactListItem}>
+                    <Contact 
                     contact={contact} 
                     onDelete={onDelete} />
                 </li>

@@ -1,5 +1,6 @@
 .contact-wrapper {
     display: flex;
+    width: 360px;
     justify-content: space-between;
     margin-bottom: 4px;
     font-size: 500;
